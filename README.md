@@ -1,7 +1,6 @@
 # Learning TCP Server
 
-This folder is for learning how a simple TCP server works in C++.
-I wrote it in a student way, not a professional way, so it is easier to study and change.
+This project is for learning how a simple TCP server works in C++.
 
 ## What this file is
 
@@ -71,24 +70,4 @@ Example:
 nc localhost 8080
 ```
 
-## How to build
 
-From this folder:
-
-```bash
-g++ -std=c++17 -pthread -c server.cpp -o server.o
-```
-
-## How to think about this project
-
-The server is not finished yet.
-It is a learning skeleton.
-You are supposed to fill in the missing parts step by step and understand each concept before adding the next one.
-
-## Good next steps
-
-1. implement `send_all`
-2. implement `recv_line`
-3. make `handle_client` respond to commands
-4. add room join and leave logic
-5. improve the admin console
